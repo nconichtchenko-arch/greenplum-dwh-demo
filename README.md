@@ -32,5 +32,7 @@ docker run -d --name greenplum-db -p 5433:5432 -e GREENPLUM_PASSWORD=gpadmin wob
 
 # Подключение
 psql -h 127.0.0.1 -p 5433 -U gpadmin -d postgres
-🔗 Связанные проекты
-marketplace-dwh-analytics — основной DWH-проект, откуда взяты данные.
+
+## 🔗 Связанные проекты
+
+- [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics) — основной DWH-проект, откуда взяты данные.
